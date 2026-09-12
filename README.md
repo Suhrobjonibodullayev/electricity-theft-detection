@@ -1,5 +1,16 @@
 # ⚡ Smart Grid Electricity Theft Detection
 
+
+### Men tavsiya qiladigan kichik yaxshilash
+
+README'ning eng yuqorisiga **GitHub badges** ham qo‘shsak, repository ancha professional ko‘rinadi. Masalan:
+
+```markdown
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 An end-to-end Machine Learning project for detecting potential electricity theft from electricity and gas consumption patterns using an **XGBoost Classifier**.
 
 The project includes data preprocessing, exploratory analysis, feature engineering, model training, evaluation, model serialization, and deployment as an interactive **Streamlit web application**.
@@ -60,11 +71,72 @@ The trained model contains **26 input features**:
 - 10 numerical consumption features
 - 16 one-hot encoded building-class features
 
-The model was trained with the following main parameters:
+## The model was trained with the following main parameters:
 
-```text
 n_estimators = 500
 max_depth = 6
 learning_rate = 0.05
 subsample = 0.8
 colsample_bytree = 0.8
+
+## Building Class Features
+
+Class_FullServiceRestaurant
+Class_Hospital
+Class_LargeHotel
+Class_LargeOffice
+Class_MediumOffice
+Class_MidriseApartment
+Class_OutPatient
+Class_PrimarySchool
+Class_QuickServiceRestaurant
+Class_SecondarySchool
+Class_SmallHotel
+Class_SmallOffice
+Class_Stand_aloneRetail
+Class_StripMall
+Class_SuperMarket
+Class_Warehouse
+
+
+## Model Performance
+
+| Metric    |      Score |
+| --------- | ---------: |
+| Accuracy  | **95.72%** |
+| Precision | **99.89%** |
+| Recall    | **89.37%** |
+| F1 Score  | **94.34%** |
+| ROC-AUC   | **95.50%** |
+
+
+## Project Structure
+
+electricity-theft-detection/
+│
+├── app.py
+├── electricity_theft_model.pkl
+├── requirements.txt
+└── README.md
+
+## 🛠️ Technologies Used
+
+Python
+Pandas
+NumPy
+Scikit-learn
+XGBoost
+Joblib
+Streamlit
+Jupyter Notebook
+GitHub
+Streamlit Community Cloud
+
+## Installation
+
+git clone https://github.com/Suhrobjonibodullayev/electricity-theft-detection.git
+
+## 👨‍💻 Author
+
+Suhrobjon Ibodullayev
+Machine Learning / Data Science Project
