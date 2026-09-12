@@ -1,20 +1,15 @@
 # ⚡ Smart Grid Electricity Theft Detection
 
+An end-to-end Machine Learning project for detecting potential electricity theft from electricity and gas consumption patterns using an **XGBoost Classifier**.
 
-### Men tavsiya qiladigan kichik yaxshilash
+The project includes data preprocessing, exploratory analysis, feature engineering, model training, evaluation, model serialization, and deployment as an interactive **Streamlit web application**.
 
-README'ning eng yuqorisiga **GitHub badges** ham qo‘shsak, repository ancha professional ko‘rinadi. Masalan:
 
 ```markdown
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
-An end-to-end Machine Learning project for detecting potential electricity theft from electricity and gas consumption patterns using an **XGBoost Classifier**.
-
-The project includes data preprocessing, exploratory analysis, feature engineering, model training, evaluation, model serialization, and deployment as an interactive **Streamlit web application**.
-
 ---
 
 ## 🚀 Live Demo
@@ -140,3 +135,5 @@ git clone https://github.com/Suhrobjonibodullayev/electricity-theft-detection.gi
 
 Suhrobjon Ibodullayev
 Machine Learning / Data Science Project
+
+
