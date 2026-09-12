@@ -5,7 +5,6 @@ An end-to-end Machine Learning project for detecting potential electricity theft
 The project includes data preprocessing, exploratory analysis, feature engineering, model training, evaluation, model serialization, and deployment as an interactive **Streamlit web application**.
 
 
-```markdown
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
