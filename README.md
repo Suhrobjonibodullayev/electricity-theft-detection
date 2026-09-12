@@ -25,6 +25,12 @@ The web application allows users to enter hourly electricity/gas consumption val
 
 ---
 
+## 📸 Application Preview
+
+![Streamlit Application](Images/streamlit_app.png)
+
+---
+
 ## 📌 Project Overview
 
 Electricity theft is a significant challenge for modern power grids. Detecting suspicious consumption patterns automatically can help utilities identify potentially fraudulent or abnormal electricity usage.
