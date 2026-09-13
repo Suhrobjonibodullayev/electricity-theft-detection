@@ -121,9 +121,9 @@ electricity-theft-detection/
 
 ## 🛠️ Technologies Used
 
-Python
-Pandas
-NumPy
+-- Python
+-- Pandas
+-- NumPy
 Scikit-learn
 XGBoost
 Joblib
@@ -131,10 +131,6 @@ Streamlit
 Jupyter Notebook
 GitHub
 Streamlit Community Cloud
-
-## Installation
-
-git clone https://github.com/Suhrobjonibodullayev/electricity-theft-detection.git
 
 ## 👨‍💻 Author
 
