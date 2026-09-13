@@ -114,9 +114,13 @@ Class_Warehouse
 
 electricity-theft-detection/
 │
+
 ├── app.py
+
 ├── electricity_theft_model.pkl
+
 ├── requirements.txt
+
 └── README.md
 
 ## 🛠️ Technologies Used
